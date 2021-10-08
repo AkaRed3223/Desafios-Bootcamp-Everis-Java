@@ -11,8 +11,11 @@ public class Desafio1_1 {
         Scanner input = new Scanner(System.in);
 
         int minutos;
-        minutos = input.nextInt(); // digite aqui os minutos
+
+        minutos = input.nextInt();
 
         System.out.println(2 * minutos + " minutos");
+
     }
+
 }

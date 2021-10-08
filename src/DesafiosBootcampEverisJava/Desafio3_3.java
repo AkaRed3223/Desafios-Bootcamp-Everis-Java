@@ -21,7 +21,7 @@ public class Desafio3_3 {
         double nota1 = 0;
         double nota2 = 0;
 
-        for (int i = 0; i < 2; ) {
+        for (int i = 0; i < 2;) {
             double validador = input.nextDouble();
             if (validador > 0 && validador <= 10) {
                 if (nota1 == 0) {
@@ -36,6 +36,7 @@ public class Desafio3_3 {
 
         double media = (nota1 + nota2) / 2;
         System.out.print("media = " + (String.format("%.2f", media)));
+
     }
 }
 
